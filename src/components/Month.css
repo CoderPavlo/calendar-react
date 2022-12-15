@@ -1,0 +1,54 @@
+.Table{
+    width: 95%;
+    height: fit-content;
+    margin-top: 5px;
+    border-collapse: collapse;
+}
+
+
+
+.Row{
+    height: 130px;
+}
+
+.Cell{
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.HeadOfCell {
+    margin-top: 10px;
+    height: 25px;
+    width: 25px;
+    margin-left: 75%;
+    border: 2px solid transparent;
+    border-radius: 100%;
+}
+
+.Cell:hover .HeadOfCell{
+    background-color:cadetblue;
+}
+
+.Head, .Cell{
+    border: 1px solid #e1e1e1;
+    padding: 0;
+    width:100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .Head, .Cell{
+        width:90px;
+    }
+} 
+
+@media only screen and (min-width: 768px) {
+    .Head, .Cell{
+        width:120px;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    .Head, .Cell{
+        width:200px;
+    }
+} 
